@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Desafìo CSS</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/logo.png" alt="logo" class="logo" />
+      <div class="header__container-menu">
+        <div class="header__menu"></div>
+        <div class="header__menu"></div>
+        <div class="header__menu"></div>
+        <ul class="header__menu-container">
+          <li class="header__lista"><a href="#soy">quien soy</a></li>
+          <li class="header__lista"><a href="#servicios">servicios</a></li>
+          <li class="header__lista"><a href="#contacto">escribime</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="welcome">
+      <div class="title-container">
+        <h2 class="welcome__titulo">Bienvenidos/as a mi site</h2>
+      </div>
+
+      <img
+        src="./images/Mati-Pila.png"
+        alt="mati-pila"
+        class="welcome__image"
+      />
+    </section>
+    <section class="quien-soy">
+      <div class="quien-soy__container-text">
+        <h2 id="soy" class="title-secondary">Soy Matías</h2>
+        <p class="parrafo-blanco">
+          Mi nombre es Matías Almeira, argentino nacido en la provincia de
+          Mendoza. Soy estudiante de la carrera "Software Developer" en la
+          plataforma de <a href="https://apx.school/">"APX school"</a> . Esta
+          página es creada en modo de sitio de presentación para cumplir con el
+          desafío del módulo Web, utilizando solamente Html y CSS.
+        </p>
+      </div>
+      <img src="./images/check1.png" alt="check1" class="quien-soy__check" />
+    </section>
+    <section class="servicios">
+      <div class="servicio__title-container">
+        <h2 id="servicios" class="title-secondary-negro">Mis servicios</h2>
+      </div>
+      <div class="servicios__cosas-container">
+        <div class="servicios__cosas">
+          <img src="./images/Group.png" alt="Group" class="pc" />
+          <h3 class="subtitulo">Hago Cosas</h3>
+          <div class="contenedor-parrafo">
+            <p class="parafo-negro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              perferendis labore vel corrupti blanditiis, iste dolorem ullam!
+              Explicabo maxime hic totam, dignissimos et cupiditate quas, earum
+              quibusdam voluptatibus, quis maiores.
+            </p>
+          </div>
+        </div>
+        <div class="servicios__cosas">
+          <img src="./images/Group.png" alt="Group" class="pc" />
+          <h3 class="subtitulo">Y más cosas</h3>
+          <div class="contenedor-parrafo">
+            <p class="parafo-negro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              perferendis labore vel corrupti blanditiis, iste dolorem ullam!
+              Explicabo maxime hic totam, dignissimos et cupiditate quas, earum
+              quibusdam voluptatibus, quis maiores.
+            </p>
+          </div>
+        </div>
+        <div class="servicios__cosas">
+          <img src="./images/Group.png" alt="Group" class="pc" />
+          <h3 class="subtitulo">Y también otras cosas</h3>
+          <div class="contenedor-parrafo">
+            <p class="parafo-negro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              perferendis labore vel corrupti blanditiis, iste dolorem ullam!
+              Explicabo maxime hic totam, dignissimos et cupiditate quas, earum
+              quibusdam voluptatibus, quis maiores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form">
+      <div class="form__container-text">
+        <h2 id="contacto" class="form_title">Escrbime</h2>
+      </div>
+
+      <div class="form__container">
+        <div class="fieldset">
+          <label for="NOMBRE" class="form__laber-nombre">NOMBRE</label>
+          <input id="NOMBRE" type="text" class="form__input" />
+        </div>
+        <div class="fieldset">
+          <label for="email" class="form__laber-email">EMAIL</label>
+          <input id="email" type="email" class="form__input" />
+        </div>
+        <div class="fieldset">
+          <label for="mensaje" class="form__laber-mensaje">Mensaje</label>
+          <textarea id="mensaje" class="form__mensaje"> </textarea>
+        </div>
+        <div class="form__button-container">
+          <button class="form-button">Enviar</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="logo-container">
+        <img src="./images/logo.png" alt="logo" class="logo" />
+        <p class="logo-copyright">© 2023 Matias</p>
+      </div>
+
+      <div class="footer__redes-container">
+        <div class="footer__logo-instagram-container">
+          <a href="https://www.instagram.com/matiipila/">
+            <img
+              src="./images/logo-instagram.png"
+              alt=""
+              class="footer__logos-instagram"
+            />
+            <img
+              src="./images/instagram.png"
+              alt=""
+              class="footer__instagram"
+            />
+          </a>
+        </div>
+        <a href="https://www.linkedin.com/in/matias-almeira-8585b7213/">
+          <img src="./images/linkedin.png" alt="" class="footer__logos-redes" />
+        </a>
+        <a href="https://github.com/pila1486">
+          <img src="./images/github.png" alt="" class="footer__logos-redes" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
